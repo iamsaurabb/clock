@@ -1,0 +1,89 @@
+
+<!-- =====  CLOCK---HTML---89lines  ===== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head start -->
+<head>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =====  BOX ICONS  ===== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- TITLE -->
+    <title>Clock</title>
+
+</head>
+
+
+<!-- Body start -->
+<body>
+
+    <sectin class="clock container">
+        <div class="clock__container grid">
+
+            <div class="clock__content grid">
+
+                <div class="clock__circle">
+                    <!-- == TIME on Clock == -->
+                    <span class="clock__twelve"></span>
+                    <span class="clock__three"></span>
+                    <span class="clock__six"></span>
+                    <span class="clock__nine"></span>
+
+                    <!-- == NEEDLE == -->
+                    <div class="clock__rounder"></div>
+                    <div class="clock__hour" id="clock-hour"></div>
+                    <div class="clock__minutes" id="clock-minutes"></div>
+                    <div class="clock__seconds" id="clock-seconds"></div>
+
+                    <!-- Dark/light Button -->
+                    <div class="clock__theme">
+                        <i class='bx bxs-moon' id="theme-button"></i>
+                    </div>
+
+                </div>
+
+
+                <div>
+                    <div class="location">Bombay</div>
+                    <!-- == TIME on Screen == -->
+                    <div class="clock__text">
+                        <div class="clock__text-hour" id="text-hour"></div>
+                        <div class="clock__text-minutes" id="text-minutes"></div>
+                        <div class="clock__text-ampm" id="text-ampm"></div>
+                    </div>
+
+                    <!-- == Date-Month-Year == -->
+                    <div class="clock__date">
+                        <span id="date-day"></span>
+                        <span id="date-month"></span>
+                        <span id="date-year"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- == Link to World Clock Page == -->
+            <a href="https://www.timeanddate.com/worldclock/" target="_blank" class="clock__logo">Nothing</a>
+
+        </div>
+    </sectin>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/script.js"></script>
+
+
+</body>
+
+</html>
